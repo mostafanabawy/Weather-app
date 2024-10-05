@@ -1,0 +1,89 @@
+:root{
+    --gray-text-color: #bfc1c8
+}
+body{
+    color: var(--gray-text-color);
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background-color: #1e202b;
+}
+.navBar-container{
+    padding: 30px;
+    background-color: inherit;
+}
+.navbar{
+    background-color: inherit !important;
+}
+.nav-link{
+    color: white !important;
+    border: 2px solid transparent;
+    border-radius: 30000px;
+}
+.nav-link:hover{
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+.navbar-nav .nav-link.active{
+    border: 2px solid #009AD8;
+    color: #009ad8 !important;
+}
+.site-description{
+    color: var(--gray-text-color) !important;
+}
+main{
+    background-image: url("https://routeweather.netlify.app/images/banner.png");
+    background-size: 100% 70%;
+    background-position: top left; 
+    background-repeat: no-repeat;
+}
+input.form-control.rounded-pill{
+    background-color: #1E202B;
+    border-color: black;
+    height: 50px;
+    color: white;
+}
+input.form-control.rounded-pill::placeholder{
+    color: gray;
+}
+input.find{
+    background-color: #009AD8;
+    width: 90px;
+    right: 5px !important;
+}
+header{
+    background: rgba(0, 0, 0, 0.1);
+}
+#location{
+    color: var(--gray-text-color);
+}
+.light-days{
+    background-color: #323544;
+}
+.middle-day{
+    background-color: #262936;
+}
+.site-footer{
+    background-color: #262936;
+}
+.social-links a{
+    border-radius: 50%;
+    background-color: #1E202B;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.social-links a:hover i{
+    transition: all 0.4s ease-in-out;;
+}
+.social-links a:hover i{
+    color: white !important;
+}
+.social-links a:hover{
+    background-color: #009ad8;
+}
