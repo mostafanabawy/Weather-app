@@ -9,7 +9,7 @@ var degreesArr = document.querySelectorAll(".degree");
 var degreeDescription = document.querySelectorAll(".desc");
 var searchInput = document.getElementById("search");
 
-var baseURL = "http://api.weatherapi.com/v1/forecast.json?key=55934bedc99b4fd6b65224834240310&q="
+var baseURL = "https://api.weatherapi.com/v1/forecast.json?key=55934bedc99b4fd6b65224834240310&q="
 
 searchInput.addEventListener("keyup", function () {
     var searchTerm = searchInput.value.toLowerCase();
